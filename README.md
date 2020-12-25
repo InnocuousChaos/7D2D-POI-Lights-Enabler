@@ -1,1 +1,3 @@
-# 7D2D-BepInEx-Mod-Template
+# 7D2D POI Lights Enabler
+
+Allows you to toggle POI lights on and off.
