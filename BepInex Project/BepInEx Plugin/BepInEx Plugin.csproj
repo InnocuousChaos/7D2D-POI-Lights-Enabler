@@ -76,6 +76,7 @@
     <Compile Include="..\..\BepInEx Mod Template\plugins\PluginInfo.cs">
       <Link>PluginInfo.cs</Link>
     </Compile>
+    <Compile Include="BlockLightPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

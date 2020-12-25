@@ -27,7 +27,7 @@ namespace BepInExPlugin
         /// Human-readable name of the plugin. In general, it should be short and concise.
         /// This is the name that is shown to the users who run BepInEx and to modders that inspect BepInEx logs. 
         /// </summary>
-        public const string PLUGIN_NAME = "BepInEx Plugin Template";
+        public const string PLUGIN_NAME = "POI Lights Enabler";
         
         /// <summary>
         /// Unique ID of the plugin.
@@ -36,7 +36,7 @@ namespace BepInExPlugin
         ///
         /// When creating Harmony patches, prefer using this ID for Harmony instances as well.
         /// </summary>
-        public const string PLUGIN_ID = "org.bepinex.my.plugin.template";
+        public const string PLUGIN_ID = "org.InnocuousChaos.POILights";
         
         /// <summary>
         /// Version of the plugin. Must be in form <major>.<minor>.<build>.<revision>.
