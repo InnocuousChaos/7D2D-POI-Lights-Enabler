@@ -73,15 +73,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\BepInEx Mod Template\plugins\BlockLightPatch.cs">
-      <Link>BlockLightPatch.cs</Link>
-    </Compile>
     <Compile Include="..\..\BepInEx Mod Template\plugins\Plugin.cs">
       <Link>Plugin.cs</Link>
     </Compile>
     <Compile Include="..\..\BepInEx Mod Template\plugins\PluginInfo.cs">
       <Link>PluginInfo.cs</Link>
     </Compile>
+    <Compile Include="BlockLightPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
