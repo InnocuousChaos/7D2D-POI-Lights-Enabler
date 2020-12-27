@@ -3,9 +3,14 @@ using System.Reflection;
 using System.Collections.Generic;
 using System;
 using System.Reflection.Emit;
+using System.IO;
+using UnityEngine;
 
 public class BlockLightPatch
 {
+    private static readonly string AdvFeatureClass = "FoodSpoilage";
+    private static readonly string Feature = "FoodSpoilage";
+
     [HarmonyPatch]
     public class BlockLightPatches
     {
